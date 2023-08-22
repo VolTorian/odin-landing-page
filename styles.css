@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.section-intro {
+    background-color: teal;
+    padding: 0 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links > li {
+    list-style: none;
+}
