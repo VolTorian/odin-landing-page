@@ -4,7 +4,9 @@ body {
 
 .section-intro {
     background-color: teal;
-    padding: 0 80px;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -21,4 +23,25 @@ body {
 
 .header-links > li {
     list-style: none;
+}
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.intro-content > div {
+    flex: 1;
+    /* background-color: yellow; */
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.title-text {
+    font-weight: bold;
+    font-size: xx-large;
 }
