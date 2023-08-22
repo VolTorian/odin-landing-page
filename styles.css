@@ -38,10 +38,29 @@ body {
 
 img {
     max-width: 100%;
-
+    /* background-color: turquoise; */
 }
 
 .title-text {
     font-weight: bold;
     font-size: xx-large;
+}
+
+.section-info {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* background-color: cyan; */
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    max-width: 200px;
 }
