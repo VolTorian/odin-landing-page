@@ -16,6 +16,10 @@ body {
     text-align: center;
 }
 
+.quote {
+    background-color: lightgray;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -62,4 +66,8 @@ img {
 
 .info-card {
     max-width: 200px;
+}
+
+.quote-src {
+    text-align: right;
 }
