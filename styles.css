@@ -75,6 +75,7 @@ body {
 img {
     max-width: 100%;
     /* background-color: turquoise; */
+    border-radius: 16px;
 }
 
 .title-text {
@@ -99,22 +100,28 @@ img {
 }
 
 .info-card {
-    max-width: 200px;
+    max-width: 160px;
     color: #1f2937;
 }
 
 .info-card > img {
     border: 4px solid #3882f6;
+    height: 160px;
+}
+
+.quote {
+    color:#1f2937;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
 }
 
 .quote-src {
     text-align: right;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .call-banner {
@@ -128,4 +135,16 @@ img {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+.call-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call button {
+    align-self: center;
 }
