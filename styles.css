@@ -71,3 +71,11 @@ img {
 .quote-src {
     text-align: right;
 }
+
+.call-banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 50px 100px;
+    color: white;
+}
