@@ -18,6 +18,7 @@ body {
 
 .info {
     text-align: center;
+    padding-top: 0;
 }
 
 .quote {
@@ -36,6 +37,7 @@ body {
     text-align: center;
     background-color: #1f2937;
     padding: 20px 200px;
+    color: #f9faf8;
 }
 
 .header-logo {
@@ -89,8 +91,26 @@ img {
     flex-wrap: wrap;
 }
 
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 60px;
+}
+
 .info-card {
     max-width: 200px;
+    color: #1f2937;
+}
+
+.info-card > img {
+    border: 4px solid #3882f6;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .quote-src {
@@ -100,7 +120,12 @@ img {
 .call-banner {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #3882f6;
     padding: 50px 100px;
     color: white;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
