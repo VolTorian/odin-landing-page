@@ -79,3 +79,8 @@ img {
     padding: 50px 100px;
     color: white;
 }
+
+.footer {
+    text-align: center;
+    background-color: teal;
+}
