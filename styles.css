@@ -130,6 +130,7 @@ img {
     background-color: #3882f6;
     padding: 50px 100px;
     color: white;
+    border-radius: 8px;
 }
 
 button {
@@ -145,6 +146,12 @@ button {
     font-size: 24px;
 }
 
-.call button {
+.sign-up {
     align-self: center;
+    border-style: solid;  
+    border-color: #3882f6;
+}
+
+.call .sign-up {
+    border-color: white;
 }
